@@ -7,7 +7,7 @@ Este repositorio contiene el manual de ingeniería de un modelo de vehículo aut
 
 * `t-photos` contiene 2 fotos del equipo (una oficial y una foto divertida con todos los miembros del equipo)
 
-![equipo](20240702_122028.png)
+![equipo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/20240702_122028.png)
 
 * `v-photos` contiene 6 fotos del vehículo (de cada lado, desde arriba y desde abajo)
 * `video` contiene el archivo video.md con el enlace a un video donde existe una demostración de manejo
