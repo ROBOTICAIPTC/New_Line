@@ -1,11 +1,9 @@
 Control software
 ================
 
-This directory must contain code for control software which is used by the vehicle to participate in the competition and which was developed by the participants.
+Programa utilizado para codificar
 
-All artifacts required to resolve dependencies and build the project must be included in this directory as well.
-
-Lego Mindstorms Ev3
+Lego Mindstorms EV3
 
 v.1.5.3
 
