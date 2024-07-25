@@ -1,4 +1,5 @@
 NEW LINE
+ 
  Manual de robotica del equipo de robótica New-Line
 
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
