@@ -1,12 +1,17 @@
-Manual de ingeniería
-
-Equipo New Line
+NEW LINE
+ Manual de robotica del equipo de robótica New-Line
 
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
+♦	DETALLES DEL EQUIPO
+Nombre del equipo: New Line
+País: Panamá, Panamá Oeste, Distrito de Capira
+Miembros del equipo: Josué Jiménez e Isaac Clara
+Coach: Mara Martínez
+
 ====
 
-Este repositorio contiene el manual de ingeniería de un modelo de vehículo autónomo que participará en la competencia WRO Future Engineers en la temporada 2024.
+Este repositorio presenta información detallada sobre la construcción del robot del equipo New Line, el cual participa en la competencia WRO-FUTURE ENGINEERS de la temporada mundial WRO Panamá 2024. 
 
 ## Contenido
 
@@ -91,5 +96,5 @@ Este repositorio contiene el manual de ingeniería de un modelo de vehículo aut
 ![S9](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide9.JPG)
 
 * `src` contiene código de software de control para todos los componentes que fueron programados para participar en la competencia
-* `models` es para los archivos de modelos utilizados por impresoras 3D, máquinas de corte por láser y máquinas CNC para producir los elementos del vehículo. Si no hay nada que agregar a esta ubicación, se puede eliminar el directorio.
+  * `models` es para los archivos de modelos utilizados por impresoras 3D, máquinas de corte por láser y máquinas CNC para producir los elementos del vehículo. Si no hay nada que agregar a esta ubicación, se puede eliminar el directorio.
 * `other` es para otros archivos que pueden usarse para entender cómo preparar el vehículo para la competencia. Puede incluir documentación sobre cómo conectarse a un SBC/SBM y cargar archivos allí, conjuntos de datos, especificaciones de hardware, descripciones de protocolos de comunicación, etc. Si no hay nada que agregar a esta ubicación, se puede eliminar el directorio.
