@@ -1,4 +1,9 @@
 Manual de ingeniería
+
+Equipo New Line
+
+![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.png)
+
 ====
 
 Este repositorio contiene el manual de ingeniería de un modelo de vehículo autónomo que participará en la competencia WRO Future Engineers en la temporada 2024.
@@ -9,7 +14,37 @@ Este repositorio contiene el manual de ingeniería de un modelo de vehículo aut
 
 ![equipo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/20240702_122028.png)
 
+![divertida](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/13.jpg)
+
 * `v-photos` contiene 6 fotos del vehículo (de cada lado, desde arriba y desde abajo)
+
+- Superior
+![Superior](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Superiorpng)
+
+- Frontal
+![Frontal](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Frontal.jpg)
+
+- Posterior
+![Posterior](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Posterior.jpg)
+
+- Derecha
+![Derecha](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Derecha.jpg)
+
+- Izquierda
+![Izquierda](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Izquierda.jpg)
+
+- Inferior
+![Inferior](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Inferior.jpg)
+
+- Primer Armado
+![Primer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Primer-Armado.jpg)
+
+- Segundo Armado
+![Segundo-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Segundo-Armado.jpg)
+
+- Tercer Armado
+![Tercer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Tercer-Armado.jpg)
+
 * `video` contiene el archivo video.md con el enlace a un video donde existe una demostración de manejo
 * `schemes` contiene uno o varios diagramas esquemáticos en formato JPEG, PNG o PDF de los componentes electromecánicos que ilustran todos los elementos (componentes electrónicos y motores) utilizados en el vehículo y cómo se conectan entre sí.
 
@@ -28,6 +63,8 @@ Este repositorio contiene el manual de ingeniería de un modelo de vehículo aut
 ![S7](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide7.JPG)
 
 ![S8](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide8.JPG)
+
+![S9](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide9.JPG)
 
 * `src` contiene código de software de control para todos los componentes que fueron programados para participar en la competencia
 * `models` es para los archivos de modelos utilizados por impresoras 3D, máquinas de corte por láser y máquinas CNC para producir los elementos del vehículo. Si no hay nada que agregar a esta ubicación, se puede eliminar el directorio.
