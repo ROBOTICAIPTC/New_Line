@@ -21,3 +21,5 @@ This directory must contain one or several schematic diagrams in form of JPEG, P
 ![S8](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide8.JPG)
 
 ![S9](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide9.JPG)
+
+![S10](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide10.JPG)

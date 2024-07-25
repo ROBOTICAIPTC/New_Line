@@ -90,6 +90,8 @@ Este repositorio contiene el manual de ingeniería de un modelo de vehículo aut
 
 ![S9](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide9.JPG)
 
+![S10](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide10.JPG)
+
 * `src` contiene código de software de control para todos los componentes que fueron programados para participar en la competencia
 * `models` es para los archivos de modelos utilizados por impresoras 3D, máquinas de corte por láser y máquinas CNC para producir los elementos del vehículo. Si no hay nada que agregar a esta ubicación, se puede eliminar el directorio.
 * `other` es para otros archivos que pueden usarse para entender cómo preparar el vehículo para la competencia. Puede incluir documentación sobre cómo conectarse a un SBC/SBM y cargar archivos allí, conjuntos de datos, especificaciones de hardware, descripciones de protocolos de comunicación, etc. Si no hay nada que agregar a esta ubicación, se puede eliminar el directorio.
