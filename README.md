@@ -5,9 +5,13 @@ NEW LINE
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
 ♦	DETALLES DEL EQUIPO
+
 Nombre del equipo: New Line
+
 País: Panamá, Panamá Oeste, Distrito de Capira
+
 Miembros del equipo: Josué Jiménez e Isaac Clara
+
 Coach: Mara Martínez
 
 ====
