@@ -72,8 +72,8 @@ PRUEBAS Y AJUSTES
 CONSTRUCCION FISICA 
 
 *Asegúrate de que todos los componentes estén firmemente conectados para evitar desconexiones durante la competencia.
-*
-Usa engranajes y estructuras reforzadas para mejorar la estabilidad del robot.                                        
+
+*Usa engranajes y estructuras reforzadas para mejorar la estabilidad del robot.                                        
 
 
 ![S1](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide1.JPG)
