@@ -11,10 +11,15 @@ Este repositorio contiene el manual de ingeniería de un modelo de vehículo aut
 ## Contenido
 
 * `t-photos` contiene 2 fotos del equipo (una oficial y una foto divertida con todos los miembros del equipo)
-
+* 
+- Foto Formal
 ![equipo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/20240702_122028.png)
 
+- Foto Divertida
 ![divertida](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/13.jpg)
+
+- Codificando
+![15](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/15.jpg)
 
 * `v-photos` contiene 6 fotos del vehículo (de cada lado, desde arriba y desde abajo)
 
@@ -36,16 +41,35 @@ Este repositorio contiene el manual de ingeniería de un modelo de vehículo aut
 - Inferior
 ![Inferior](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Inferior.jpg)
 
-- Primer Armado
+- Primera fase de armado
 ![Primer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Primer-Armado.jpg)
 
-- Segundo Armado
+- Segunda fase de armado
 ![Segundo-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Segundo-Armado.jpg)
 
-- Tercer Armado
+- Tercera fase de armado
 ![Tercer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Tercer-Armado.jpg)
 
+- Base del ultrasonico
+![18](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/18.jpg)
+
+- Finalizando Armado
+![17](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/17.jpg)
+
+- Rescontrucción en pista
+![20](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/20.jpg)
+
+- Pruebas de Programacion
+![21](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/21.jpg)
+
+- Pruebas en simulador de aerodinamica
+![22](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/22.jpg)
+
+
 * `video` contiene el archivo video.md con el enlace a un video donde existe una demostración de manejo
+
+- Ronda de Desafio Abierto https://youtu.be/KI8TZq1QNDs
+
 * `schemes` contiene uno o varios diagramas esquemáticos en formato JPEG, PNG o PDF de los componentes electromecánicos que ilustran todos los elementos (componentes electrónicos y motores) utilizados en el vehículo y cómo se conectan entre sí.
 
 ![S1](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide1.JPG)
