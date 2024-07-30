@@ -1,10 +1,9 @@
-NEW LINE
-======== 
-Bienvenidos al repositorio oficial del equipo New Line de Panamá. Este repositorio alberga toda la documentación técnica y los materiales de ingeniería correspondientes al diseño y desarrollo de nuestro vehículo autónomo, que participará en el concurso WRO Future Engineers para la temporada 2024.
-============================
+**
+**Bienvenidos al repositorio oficial del equipo New Line de Panamá. Este repositorio alberga toda la documentación técnica y los materiales de ingeniería correspondientes al diseño y desarrollo de nuestro vehículo autónomo, que participará en el concurso WRO Future Engineers para la temporada 2024.**
+
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
-♦	DETALLES DEL EQUIPO
+# DETALLES DEL EQUIPO
 
 Nombre del equipo: New Line
 
