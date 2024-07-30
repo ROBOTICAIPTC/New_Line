@@ -14,7 +14,7 @@ Miembros del equipo: Josué Jiménez e Isaac Clara
 
 Coach: Mara Martínez
 
-====
+==============================================
 
 Este repositorio presenta información detallada sobre la construcción del robot del equipo New Line, el cual participa en la competencia WRO-FUTURE ENGINEERS de la temporada mundial WRO Panamá 2024. 
 
