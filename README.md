@@ -17,6 +17,7 @@
   * [**Sensores y margenes de error**](#SENSORES-Y-MARGENES-DE-ERROR)
   * [**Recomendaciones y tips**](#RECOMENDACIONES-Y-TIPS)
   * [**Diagrama**](#DIAGRAMA)
+  * [**Version del progama**](#VERSION-DEL-PROGAMA)
     
     
  </div>
@@ -235,7 +236,7 @@ RPM: 240-250
 
 * `src` contiene código de software de control para todos los componentes que fueron programados para participar en la competencia
 
-Programa utilizado para codificar
+ # VERSION DEL PROGAMA
 
 Lego Mindstorms EV3
 
