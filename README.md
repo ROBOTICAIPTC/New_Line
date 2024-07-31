@@ -10,9 +10,15 @@
   * [Team Photos](#team-photos )
   * [Vehicle Photos](#vehicle-photos)
 * [**Performance Videos**](#RONDA-DE-DESAFIO)
-*   [**Gestion de energia y los sentidos**](#GESTION-DE-ENERGIA-Y-LOS-SENTIDOS)
+* [**Gestion de energia y los sentidos**](#GESTION-DE-ENERGIA-Y-LOS-SENTIDOS)
   * [**Gestion de energia**](#GESTION-DE-ENERGIA)
   * [**Gestion de Movilidad**](#GESTION-DE-MOVILIDAD)
+  * [**Controlador/Robot**](#CONTROLADOR/ROBOT)
+  * [**Sensores y margenes de error**](#SENSORES-Y-MARGENES-DE-ERROR)
+  * [**Recomendaciones y tips**](#RECOMENDACIONES-Y-TIPS)
+  * [**Diagrama**](#DIAGRAMA)
+    
+    
  </div>
   
    # DETALLES-DEL-EQUIPO
@@ -133,7 +139,7 @@ Adicionalmente, ambos tipos de motores están equipados con sensores de rotació
 *El Motor grande funciona a 160–170 rpm, con un torque de rotación de 20 Ncm y un torque de rotor bloqueado de 40 Ncm. 
 *El Motor mediano funciona a 240–250 rpm, con un torque de rotación de 8 Ncm y un torque de rotor bloqueado de 12 Ncm.
 
-CONTROLADOR/ROBOT
+# CONTROLADOR/ROBOT
 
 Procesador: ARM9, 300 MHz.
 
@@ -143,15 +149,13 @@ Almacenamiento: 16 MB de memoria flash y ranura para tarjeta microSD de hasta 32
 
 Sistema Operativo:  Kendel Linux.
 
-VOLTAJES Y BATERIAS 
-
 Voltaje de Funcionamiento: 6-9V DC.
 
-Batería Recargable: Batería de ion de litio EV3 (7.2V, 2050 mAh) o 6 pilas AA (9V).
+Batería Recargable: Batería de ion de litio EV3 (10V).
 
 Duración de la Batería: Aproximadamente 6 horas con uso continuo de la batería recargable.
 
-SENSORES Y MARGENES DE ERROR
+# SENSORES Y MARGENES DE ERROR
 
 Sensor de Color:
 Precisión: ±1%
@@ -173,19 +177,21 @@ Motor Mediano (Medium Motor):
 Torque: 8 N.cm
 RPM: 240-250
 
-RECOMENDACIONES Y TIPS                                                                                                                                                                                                                                                                                                    Optimización de Energía
+# RECOMENDACIONES Y TIPS                                                                                                                                                                                       
+
+**Optimización de Energía**
 
 *Usa la batería recargable de ion de litio para obtener una vida útil más larga y un rendimiento más constante.
 
 *Apaga los motores y sensores cuando no estén en uso para ahorrar energía.
 
-*Calibración de Sensores
+**Calibración de Sensores**
 
 *Asegúrate de calibrar el sensor de color en las condiciones de luz del entorno de la competencia.
 
 *Realiza pruebas para determinar la precisión del sensor ultrasónico y ajustar las distancias de seguridad en el código.
 
-PROGRAMACION: 
+**Progamacion**
 
 *Divide tu código en módulos para facilitar la depuración.
 
@@ -193,17 +199,19 @@ PROGRAMACION:
 
 *Implementa una rutina de reinicio en caso de que el robot se desvíe de su ruta prevista.
 
-PRUEBAS Y AJUSTES:
+**Pruebas y ajustes**
 
 *Realiza numerosas pruebas en el circuito real para ajustar los parámetros del sensor y los motores.
 
 *Ajusta las velocidades de los motores para encontrar un equilibrio entre velocidad y precisión en los giros.
 
-CONSTRUCCION FISICA:
+**Construccion fisica**
 
 *Asegúrate de que todos los componentes estén firmemente conectados para evitar desconexiones durante la competencia.
 
 *Usa engranajes y estructuras reforzadas para mejorar la estabilidad del robot.                                        
+
+# DIAGRAMA 
 
 ![S1](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide1.JPG)
 
