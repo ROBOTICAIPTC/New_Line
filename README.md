@@ -1,9 +1,19 @@
 **
-**Bienvenidos al repositorio oficial del equipo New Line de Panamá. Este repositorio alberga toda la documentación técnica y los materiales de ingeniería correspondientes al diseño y desarrollo de nuestro vehículo autónomo, que participará en el concurso WRO Future Engineers para la temporada 2024.*
+**Bienvenidos al repositorio oficial del equipo New Line de Panamá. Este repositorio alberga toda la documentación técnica y los materiales de ingeniería correspondientes al diseño y desarrollo de nuestro vehículo autónomo, que participará en el concurso WRO Future Engineers para la temporada 2024.**
 
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
-# DETALLES DEL EQUIPO
+</div>
+
+* [**Detalles del equipo**](#DETALLES-DEL-EQUIPO)
+* [**Photos**](#photos)
+  * [Team Photos](#team-photos )
+  * [Vehicle Photos](#vehicle-photos)
+  * [**Performance Videos**](#Ronda-de-Desafio-Abierto)
+ 
+ </div>
+  
+   # DETALLES-DEL-EQUIPO
 
 Nombre del equipo: New Line
 
@@ -12,15 +22,11 @@ País: Panamá, Panamá Oeste, Distrito de Capira
 Miembros del equipo: Josué Jiménez e Isaac Clara
 
 Coach: Mara Martínez
-
-* [**Photos**](#photos)
-  * [Team Photos](#team-photos )
-  * [Vehicle Photos](#vehicle-photos)
-
+</div>
 Este repositorio presenta información detallada sobre la construcción del robot del equipo New Line, el cual participa en la competencia WRO-FUTURE ENGINEERS de la temporada mundial WRO Panamá 2024. 
 </div>
 
-## Contenido
+# PHOTOS
 
 * `t-photos` contiene 2 fotos del equipo (una oficial y una foto divertida con todos los miembros del equipo)
   
@@ -84,7 +90,8 @@ Este repositorio presenta información detallada sobre la construcción del robo
 
 * `video` contiene el archivo video.md con el enlace a un video donde existe una demostración de manejo
 
-# Ronda de Desafio Abierto https://youtu.be/KI8TZq1QNDs
+# Ronda-de-Desafio-Abierto 
+https://youtu.be/KI8TZq1QNDs
 
 * `schemes` contiene uno o varios diagramas esquemáticos en formato JPEG, PNG o PDF de los componentes electromecánicos que ilustran todos los elementos (componentes electrónicos y motores) utilizados en el vehículo y cómo se conectan entre sí.
 
