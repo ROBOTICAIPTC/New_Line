@@ -10,7 +10,9 @@
   * [Team Photos](#team-photos )
   * [Vehicle Photos](#vehicle-photos)
 * [**Performance Videos**](#RONDA-DE-DESAFIO)
- 
+*   [**Gestion de energia y los sentidos**](#GESTION-DE-ENERGIA-Y-LOS-SENTIDOS)
+  * [Gestion de energia](#GESTION-DE-ENERGIA)
+  * [Gestion de Movilidad](#GESTION-DE-MOVILIDAD)
  </div>
   
    # DETALLES-DEL-EQUIPO
@@ -95,6 +97,41 @@ https://youtu.be/KI8TZq1QNDs
 
 * `schemes` contiene uno o varios diagramas esquemáticos en formato JPEG, PNG o PDF de los componentes electromecánicos que ilustran todos los elementos (componentes electrónicos y motores) utilizados en el vehículo y cómo se conectan entre sí.
 
+# GESTION DE ENERGIA Y LOS SENTIDOS
+
+CONEXION A	
+Motor Grande: Este componente esencial facilita el movimiento de las llantas traseras del robot, proporcionando la potencia y precisión necesarias para maniobrar con eficiencia en diversas superficies y condiciones.
+
+CONEXION B	
+Motor Mediano: Este motor permite que el robot gire y cambie de dirección, facilitando movimientos precisos hacia la izquierda y la derecha, y contribuyendo a una mayor maniobrabilidad y control en su desplazamiento.
+
+CONEXION 4	
+Sensor Ultrasónico: Este sensor permite al robot detectar objetos a diferentes distancias y utiliza esta información para determinar el momento adecuado para determinar los cambios de dirección, garantizando así la seguridad y la precisión en sus movimientos.
+
+CONEXION 3	
+Sensor de Color: Este sensor permite detectar los colores de los cubos en color rojo y verde de la pista perimitiendo que el robot decida hacia que lado debe girar 
+
+# GESTION DE ENERGIA
+
+El bloque EV3 y todo el vehículo obtienen su energía de una batería recargable de litio de 10 V. Esta fuente de energía es fundamental para el funcionamiento continuo del sistema, ya que proporciona la electricidad necesaria para todos los componentes del robot. Dentro del bloque EV3, la administración de energía es compleja y eficiente, involucrando múltiples regulaciones de conmutación que están estrictamente controladas y entrelazadas. Estas regulaciones aseguran que el circuito electrónico arranque correctamente y mantenga un funcionamiento estable.
+
+Para proteger el bloque EV3 de posibles cortocircuitos, se han implementado tres interruptores de polietileno estratégicamente ubicados. Dos de estos interruptores están dedicados a los controladores de motor, mientras que el tercero protege el resto del circuito. Cada uno de estos interruptores poligonal tiene una corriente de retención de aproximadamente 1,1 A, y se activa cuando la corriente alcanza aproximadamente 2,2 A. Este diseño de protección garantiza que cualquier sobrecarga potencial en el sistema sea rápidamente gestionada, evitando daños a los componentes y asegurando una operación segura y confiable del robot.
+
+Estos mecanismos de protección no solo prolongan la vida útil del bloque EV3, sino que también mejoran la eficiencia del sistema, permitiendo que los motores y otros componentes electrónicos funcionen de manera óptima sin riesgo de fallos eléctricos. La inclusión de estos interruptores de polietileno es una muestra del enfoque detallado y meticuloso en el diseño del sistema de administración de energía del EV3, asegurando que cada parte del robot reciba la cantidad adecuada de energía y esté protegida contra cualquier eventualidad eléctrica
+
+# GESTION DE MOVILIDAD 
+
+
+La selección del motor es un componente crucial en el sistema de navegación autónoma de nuestro vehículo. El kit LEGO MINDSTORMS EV3 ofrece dos opciones distintas de motor: motores grandes y motores medianos. Estos motores son fundamentales para el rendimiento del vehículo, cada uno con características específicas que se ajustan a diferentes necesidades del proyecto.
+
+Después de una cuidadosa evaluación de las necesidades específicas de nuestro proyecto, optamos por implementar un motor grande para accionar las llantas traseras del vehículo. Esta decisión se basa en varias consideraciones clave. En primer lugar, el motor grande del LEGO EV3 proporciona una potencia considerable, capaz de mover el vehículo con eficacia incluso en condiciones de alta fricción o resistencia en la pista. Además, la precisión del motor grande facilita una maniobrabilidad controlada, lo cual es esencial para que el vehículo navegue con exactitud por el circuito. Estos motores grandes son conocidos por su capacidad para soportar cargas más pesadas y proporcionar un par motor superior, lo que es crucial para mantener la estabilidad y velocidad del vehículo durante la competencia.
+
+Por otro lado, decidimos utilizar un motor mediano para las funciones de giro y cambio de dirección del vehículo. Este motor mediano, también parte del set LEGO EV3, es ideal para ejecutar movimientos precisos hacia la izquierda y la derecha, lo que contribuye a una mayor maniobrabilidad y control en el desplazamiento del robot. La capacidad del motor mediano para realizar ajustes finos en la dirección es fundamental para evitar obstáculos y seguir las indicaciones del sensor de color, que determina el rumbo del vehículo basado en los colores detectados en la pista. Los motores medianos son más ligeros y compactos, lo que facilita su integración en el diseño del vehículo sin añadir peso innecesario.
+
+Adicionalmente, ambos tipos de motores están equipados con sensores de rotación incorporados, que permiten un control preciso de la velocidad y la posición. Esta característica es especialmente útil para la programación de secuencias de movimiento exactas, garantizando que el vehículo siga el trayecto planificado sin desviaciones.
+
+*El Motor grande funciona a 160–170 rpm, con un torque de rotación de 20 Ncm y un torque de rotor bloqueado de 40 Ncm. 
+*El Motor mediano funciona a 240–250 rpm, con un torque de rotación de 8 Ncm y un torque de rotor bloqueado de 12 Ncm.
 
 CONTROLADOR/ROBOT
 
@@ -148,7 +185,7 @@ RECOMENDACIONES Y TIPS                                                          
 
 *Realiza pruebas para determinar la precisión del sensor ultrasónico y ajustar las distancias de seguridad en el código.
 
-PROGRAMACION 
+PROGRAMACION: 
 
 *Divide tu código en módulos para facilitar la depuración.
 
@@ -156,13 +193,13 @@ PROGRAMACION
 
 *Implementa una rutina de reinicio en caso de que el robot se desvíe de su ruta prevista.
 
-PRUEBAS Y AJUSTES
+PRUEBAS Y AJUSTES:
 
 *Realiza numerosas pruebas en el circuito real para ajustar los parámetros del sensor y los motores.
 
 *Ajusta las velocidades de los motores para encontrar un equilibrio entre velocidad y precisión en los giros.
 
-CONSTRUCCION FISICA 
+CONSTRUCCION FISICA:
 
 *Asegúrate de que todos los componentes estén firmemente conectados para evitar desconexiones durante la competencia.
 
