@@ -9,7 +9,7 @@
 * [**Photos**](#photos)
   * [Team Photos](#team-photos )
   * [Vehicle Photos](#vehicle-photos)
-  * [**Performance Videos**](#Ronda-de-Desafio-Abierto)
+* [**Performance Videos**](#Ronda-de-Desafio-Abierto)
  
  </div>
   
