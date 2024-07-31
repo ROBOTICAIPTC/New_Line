@@ -1,5 +1,5 @@
 **
-**Bienvenidos al repositorio oficial del equipo New Line de Panamá. Este repositorio alberga toda la documentación técnica y los materiales de ingeniería correspondientes al diseño y desarrollo de nuestro vehículo autónomo, que participará en el concurso WRO Future Engineers para la temporada 2024.**
+**Bienvenidos al repositorio oficial del equipo New Line de Panamá. Este repositorio alberga toda la documentación técnica y los materiales de ingeniería correspondientes al diseño y desarrollo de nuestro vehículo autónomo, que participará en el concurso WRO Future Engineers para la temporada 2024.*
 
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
@@ -13,15 +13,20 @@ Miembros del equipo: Josué Jiménez e Isaac Clara
 
 Coach: Mara Martínez
 
-====
+* [**Photos**](#photos)
+  * [Team Photos](#team-photos )
+  * [Vehicle Photos](#vehicle-photos)
 
 Este repositorio presenta información detallada sobre la construcción del robot del equipo New Line, el cual participa en la competencia WRO-FUTURE ENGINEERS de la temporada mundial WRO Panamá 2024. 
+</div>
 
 ## Contenido
 
 * `t-photos` contiene 2 fotos del equipo (una oficial y una foto divertida con todos los miembros del equipo)
+  
+# TEAM-PHOTOS
 
-- Foto Formal
+-Foto Formal
 ![equipo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/20240702_122028.png)
 
 - Foto Divertida
@@ -31,6 +36,8 @@ Este repositorio presenta información detallada sobre la construcción del robo
 ![15](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/15.jpg)
 
 * `v-photos` contiene 6 fotos del vehículo (de cada lado, desde arriba y desde abajo)
+
+# VEHICLE-PHOTOS
 
 - Superior
 ![Superior](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Superior.jpg)
@@ -77,7 +84,7 @@ Este repositorio presenta información detallada sobre la construcción del robo
 
 * `video` contiene el archivo video.md con el enlace a un video donde existe una demostración de manejo
 
-- Ronda de Desafio Abierto https://youtu.be/KI8TZq1QNDs
+# Ronda de Desafio Abierto https://youtu.be/KI8TZq1QNDs
 
 * `schemes` contiene uno o varios diagramas esquemáticos en formato JPEG, PNG o PDF de los componentes electromecánicos que ilustran todos los elementos (componentes electrónicos y motores) utilizados en el vehículo y cómo se conectan entre sí.
 
