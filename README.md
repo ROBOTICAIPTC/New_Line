@@ -11,8 +11,8 @@
   * [Vehicle Photos](#vehicle-photos)
 * [**Performance Videos**](#RONDA-DE-DESAFIO)
 *   [**Gestion de energia y los sentidos**](#GESTION-DE-ENERGIA-Y-LOS-SENTIDOS)
-  * [Gestion de energia](#GESTION-DE-ENERGIA)
-  * [Gestion de Movilidad](#GESTION-DE-MOVILIDAD)
+  * [**Gestion de energia**](#GESTION-DE-ENERGIA)
+  * [**Gestion de Movilidad**](#GESTION-DE-MOVILIDAD)
  </div>
   
    # DETALLES-DEL-EQUIPO
