@@ -1,4 +1,4 @@
-# NEWLINE-WRO2024
+# NewLine-WRO24
 
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
