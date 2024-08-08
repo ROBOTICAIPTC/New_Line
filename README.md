@@ -106,6 +106,8 @@ Estos mecanismos de protección no solo prolongan la vida útil del bloque EV3, 
 
 ![image](https://github.com/user-attachments/assets/21156e77-72e8-4606-bc2e-5efd25ec5a41)
 
+![image](https://github.com/user-attachments/assets/25f58329-7611-45c7-9df3-f03bf05a467a)
+
 # Instrucciones del armado
 
 FASE 1: Montaje de la estructura base
@@ -251,6 +253,7 @@ RPM: 240-250
 ![Izquierda](https://github.com/user-attachments/assets/39ea51e1-dcd0-4a6f-bc3f-5b77ed57dd87)
 
 - Inferior
+
 ![Inferior](https://github.com/user-attachments/assets/ed821f36-36ae-47c2-8fb2-f8757a8e89c1)
 
 - Pruebas de Programacion
