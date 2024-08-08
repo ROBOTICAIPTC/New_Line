@@ -242,17 +242,16 @@ RPM: 240-250
 ![Frontal](https://github.com/user-attachments/assets/8119c901-8f25-4ee5-b252-b75c6a36dc92)
 
 - Posterior
-![Posterior](https://github.com/user-attachments/assets/7a073041-7c3c-4fac-b9ff-d764988b38a7)
+![Posterior](https://github.com/user-attachments/assets/a937959c-5cd8-463e-a5d4-f86f1fa7de98)
 
 - Derecha
-![Derecha](https://github.com/user-attachments/assets/82fa34ef-9c62-43d8-860b-4b9fb4966331)
+![Derecha](https://github.com/user-attachments/assets/4afbdbbd-4933-4450-b754-0b8131e90e7b)
 
 - Izquierda
 ![Izquierda](https://github.com/user-attachments/assets/39ea51e1-dcd0-4a6f-bc3f-5b77ed57dd87)
 
 - Inferior
-![Inferior](![image](https://github.com/user-attachments/assets/ed821f36-36ae-47c2-8fb2-f8757a8e89c1)
-)
+![Inferior](https://github.com/user-attachments/assets/ed821f36-36ae-47c2-8fb2-f8757a8e89c1)
 
 - Pruebas de Programacion
 ![21](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/21.jpg)
