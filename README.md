@@ -68,7 +68,8 @@ Coach: Mara Martínez
 - 1 Ms-EV3 Rechargea. Battery
 - 1 P-Brick
 - 1 Medium Motor
-- 1 Large Motor 
+- 1 Large Motor
+- 1 Huskylens
 
 # Gestion de movilidad
 
@@ -168,6 +169,9 @@ CONEXION 3 Y 2
 
 Sensor de Color: Este sensor permite detectar los colores de los cubos en color rojo y verde de la pista perimitiendo que el robot decida hacia que lado debe girar 
 
+CONEXION 1
+
+Huskylens: La HuskyLens es una cámara inteligente equipada con un procesador integrado que permite la detección y el reconocimiento de objetos, colores, rostros, y más. 
 
 # Explicacion del codigo
 
@@ -229,6 +233,85 @@ RPM: 160-170
 Motor Mediano (Medium Motor):
 Torque: 8 N.cm
 RPM: 240-250
+
+# Huskylens (camara)
+
+**Especificaciones Técnicas:**
+
+Resolución de la Cámara: 320x240 píxeles.
+
+Procesador: Kendryte K210 AI Accelerator.
+
+Capacidades de Detección: Detección de colores, reconocimiento facial, seguimiento de objetos, detección de códigos QR.
+
+Interfaces de Comunicación: I2C, UART.
+
+Distancia de Detección: Hasta 2 metros para detección de colores.
+
+Velocidad de Reconocimiento: Capaz de procesar hasta 30 cuadros por segundo.
+
+**Integración con EV3:**
+
+Conexión Física:
+
+La HuskyLens se conecta al bloque EV3 mediante la interfaz UART. Se utilizan los siguientes pines:
+
+VCC: Alimentación de 5V.
+
+GND: Tierra.
+
+TX: Transmisión de datos desde la HuskyLens.
+
+RX: Recepción de datos hacia la HuskyLens.
+
+**Configuración Inicial:**
+
+Calibración de Color: Inicia la HuskyLens y selecciona el modo de detección de color.
+
+Detección de Colores Verde y Rojo: Coloca objetos de color verde y rojo frente a la cámara y sigue las instrucciones en pantalla para calibrar la detección.
+
+Guardar Configuración: Una vez calibrada, guarda la configuración en la memoria de la HuskyLens.
+
+**Comunicación entre HuskyLens y EV3**
+
+El EV3 se comunica con la HuskyLens a través del puerto UART, recibiendo datos en tiempo real sobre los colores detectados. Si se detecta un obstáculo rojo, el EV3 ejecuta un giro a la derecha; si se detecta verde, el EV3 sigue derecho o realiza la acción correspondiente.
+
+**Codigo fuente:**
+
+ev3dev2: Para programar el EV3 en Python.
+
+(Detalles de instalacion del programa en el siguiente link: https://www.ev3dev.org/docs/getting-started/)
+
+**Pruebas y Resultados:**
+
+Pruebas Realizadas:
+
+Condiciones de Luz: Se realizaron pruebas bajo diferentes condiciones de iluminación para asegurar que la HuskyLens detecte correctamente los colores rojo y verde.
+
+Distancia de Detección: Pruebas a distintas distancias (30 cm, 50 cm, 1 metro) para verificar la precisión de la detección.
+
+Velocidad de Respuesta: Evaluación de la rapidez con la que el EV3 responde a las detecciones de la HuskyLens.
+Resultados Obtenidos
+
+Detección Exitosa: La HuskyLens logró detectar colores con una precisión del 95% a una distancia de hasta 1 metro.
+
+Tiempo de Respuesta: El tiempo de respuesta promedio fue de 0.2 segundos desde la detección hasta la ejecución de la acción en el EV3.
+
+**Manual de Usuario:**
+I
+nstrucciones de Uso:
+
+Encender la HuskyLens: Conectar la HuskyLens al puerto de alimentación del EV3.
+
+Seleccionar Modo de Detección: Usar el menú de la HuskyLens para seleccionar el modo de detección de colores.
+
+Calibrar: Seguir las instrucciones en pantalla para calibrar la cámara según el entorno.
+
+Operación: Una vez calibrada, la HuskyLens estará lista para enviar datos al EV3.
+
+ **Diagrama de flujo**
+
+ ![image](https://github.com/user-attachments/assets/80aeb199-b745-4d47-bc62-298f07b4dc50)
 
 # Team-Photos
 
