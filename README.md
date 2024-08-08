@@ -149,7 +149,7 @@ La fase final del montaje involucra la integración del cerebro del robot, que e
 - Quinta fase de armado 
 - ![17](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/17.jpg)
 
-**FASE 6:** In Phase 6, we implemented a fixed structure to integrate a Huskylens vision sensor. This vision sensor provides advanced capabilities in the detection and recognition of multiple targets, offering high-level technological assistance. The incorporation of this system not only enhances the accuracy in mapping and analyzing the environment but also optimizes the robot's trajectory and maneuvers
+**FASE 6:** En la Fase 6, implementamos una estructura fija para integrar un sensor de visión Huskylens. Este sensor de visión proporciona capacidades avanzadas en la detección y reconocimiento de múltiples objetivos, ofreciendo asistencia tecnológica de alto nivel. La incorporación de este sistema no solo mejora la precisión en el mapeo y análisis del entorno, sino que también optimiza la trayectoria y las maniobras del robot.
 
 - Sexta fase de armado
 
@@ -312,7 +312,7 @@ Tiempo de Respuesta: El tiempo de respuesta promedio fue de 0.2 segundos desde l
 
 **Manual de Usuario:**
 
-nstrucciones de Uso:
+instrucciones de Uso:
 
 Encender la HuskyLens: Conectar la HuskyLens al puerto de alimentación del EV3.
 
@@ -380,15 +380,14 @@ https://youtu.be/KI8TZq1QNDs
 
 # Recomendaciones y tips                                                                                                                                    
  
- 1. *Robot Orientation:*
-   Before initiating any operation, it is crucial to carefully verify the robot's position. Ensure that the direction it is aligned with corresponds to the planned trajectory. An error in the initial orientation can lead to significant deviations during the course, affecting the precision and effectiveness of the execution of programmed tasks. Consider using markers or reference points to facilitate alignment and ensure consistency in each attempt.
+ 1. **Orientación del robot:**
+   Antes de iniciar cualquier operación, es crucial verificar cuidadosamente la posición del robot. Asegúrese de que la dirección con la que está alineado corresponda a la trayectoria planificada. Un error en la orientación inicial puede provocar desviaciones significativas durante el curso, afectando a la precisión y eficacia de la ejecución de las tareas programadas. Considere el uso de marcadores o puntos de referencia para facilitar la alineación y garantizar la coherencia en cada intento.
 
-2. *Battery Status:*
-   The charge level of the robot's brain batteries is a crucial factor in its overall performance. Before any operation, check that the batteries are charged to 100%. A battery with a low charge level can result in the robot not functioning at optimal power, leading to slow or inaccurate movements, and in the worst case, failures in program execution. Maintaining batteries in good condition and fully charging them before each use ensures more stable and predictable robot performance.
+2. **Estado de la batería:**
+   El nivel de carga de las baterías cerebrales del robot es un factor crucial en su rendimiento general. Antes de cualquier operación, verifique que las baterías estén cargadas al 100%. Una batería con un nivel de carga bajo puede provocar que el robot no funcione a la potencia óptima, lo que provoca movimientos lentos o imprecisos y, en el peor de los casos, fallos en la ejecución del programa. Mantener las baterías en buen estado y cargarlas completamente antes de cada uso garantiza un rendimiento más estable y predecible del robot.
 
-3. *Connections between Brain, Sensors, and Motors:*
-   The physical connections between the robot's brain and its sensors and motors are fundamental for proper signal transmission and command execution. Ensure that all connections are securely fastened and free from damage. Any disconnection or poor connection can result in malfunctioning of the robot, ranging from a sensor failing to respond to inefficiencies in motor movements. Conducting a thorough review of connections before starting the robot can prevent unexpected errors during competitions or tests.                                                
-
+3. **Conexiones entre el cerebro, los sensores y los motores:**
+   Las conexiones físicas entre el cerebro del robot y sus sensores y motores son fundamentales para la correcta transmisión de señales y ejecución de comandos. Asegúrese de que todas las conexiones estén bien sujetas y libres de daños. Cualquier desconexión o mala conexión puede provocar un mal funcionamiento del robot, que va desde un sensor que no responde hasta ineficiencias en los movimientos del motor. Realizar una revisión exhaustiva de las conexiones antes de poner en marcha el robot puede evitar errores inesperados durante las competiciones o pruebas.                                                
 * `src` contiene código de software de control para todos los componentes que fueron programados para participar en la competencia
 
  # Version del progama
