@@ -106,7 +106,40 @@ Estos mecanismos de protección no solo prolongan la vida útil del bloque EV3, 
 
 ![image](https://github.com/user-attachments/assets/21156e77-72e8-4606-bc2e-5efd25ec5a41)
 
+# Instrucciones del armado
 
+FASE 1: Montaje de la estructura base
+En esta primera fase, nuestro principal objetivo fue construir una base sólida que sirviera como cimiento para el resto del robot. La estabilidad es fundamental para cualquier robot móvil, por lo que comenzamos utilizando bloques y conectores robustos, seleccionados específicamente por su capacidad para resistir el peso y la tensión durante el movimiento. Nos aseguramos de que la base proporcionara un espacio equitativo y bien distribuido para las llantas en ambos ejes, tanto frontal como trasero, lo cual es crucial para mantener un equilibrio óptimo durante la operación. Además, se prestó especial atención a la simetría de la estructura, garantizando que cada componente estuviera alineado correctamente para evitar cualquier inclinación o desbalance que pudiera afectar el desempeño del robot en el circuito.
+
+FASE 2: Instalación del motor grande
+Con la base ya montada, procedimos a la instalación del motor grande, que es esencial para impulsar el movimiento del robot. Este motor fue seleccionado por su capacidad para proporcionar un par elevado, lo que permite una aceleración eficiente y una velocidad constante. El motor se acopló directamente al eje trasero del robot, asegurando que la potencia se transmita de manera eficiente a las llantas traseras. Para ello, diseñamos y ensamblamos un circuito de tuercas que permite una transferencia óptima de la potencia, minimizando la pérdida de energía y garantizando un movimiento fluido. Además, se implementaron piezas de color amarillo para estabilizar las llantas, asegurando que mantuvieran un contacto firme y constante con la superficie. Esta estabilidad es crucial para maximizar la tracción, lo que a su vez mejora la capacidad del robot para moverse sobre diferentes tipos de terreno sin perder el control.
+
+FASE 3: Montaje del sensor ultrasónico
+El siguiente paso fue el montaje del sensor ultrasónico, un componente crítico para la detección de obstáculos y la navegación autónoma del robot. Decidimos colocar este sensor sobre el motor mediano, aprovechando el espacio disponible y manteniendo el centro de gravedad bajo para evitar posibles vuelcos. El sensor ultrasónico se asegura con piezas adicionales, cuidadosamente seleccionadas para garantizar su estabilidad y evitar cualquier vibración que pudiera comprometer la precisión de la detección. Este sensor está diseñado para medir la distancia entre el robot y los objetos en su camino, lo que permite al robot ajustar su ruta en tiempo real. La precisión del sensor es vital, ya que cualquier error en la medición podría resultar en colisiones o desviaciones del camino programado.
+
+FASE 4: Instalación del motor mediano
+Una vez instalado el sensor ultrasónico, pasamos a la colocación del motor mediano, el cual es responsable de la maniobrabilidad lateral del robot. Este motor fue estratégicamente posicionado para controlar el mecanismo direccional, lo que permite al robot girar tanto hacia la izquierda como hacia la derecha de manera precisa y controlada. Para lograr esto, implementamos un sistema compuesto por una tuerca y varias piezas diseñadas para reforzar la estabilidad del sistema direccional. El motor mediano está configurado para responder rápidamente a las señales del cerebro del robot, lo que permite realizar giros suaves y evitar obstáculos de manera efectiva. La estabilidad y el soporte de las llantas también fueron reforzados en esta fase, utilizando componentes adicionales que aseguran que el robot mantenga su trayectoria incluso durante giros cerrados o cambios abruptos de dirección.
+
+FASE 5: Colocación del cerebro del robot
+La fase final del montaje involucra la integración del cerebro del robot, que es esencialmente el procesador central que coordina todas las acciones y respuestas del robot. Este componente es crucial, ya que gestiona las señales provenientes de los sensores y los motores, tomando decisiones en tiempo real basadas en la programación preestablecida. Para asegurar una integración sólida y funcional del cerebro con el resto del sistema, construimos una estructura de soporte utilizando piezas rectangulares. Esta estructura no solo soporta el peso del cerebro del robot, sino que también proporciona puntos de montaje seguros para los sensores de color, que son fundamentales para la navegación y la detección de señales en la pista. Cada pieza fue seleccionada y colocada con precisión, garantizando que el cerebro del robot esté protegido de vibraciones y choques, mientras que los sensores están posicionados de manera óptima para captar información del entorno con la máxima eficiencia.
+
+- Primera fase de armado
+![Primer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Primer-Armado.jpg)
+
+- Segunda fase de armado
+![Segundo-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Segundo-Armado.jpg)
+
+- Tercera fase de armado
+![Tercer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Tercer-Armado.jpg)
+
+- Base del ultrasonico
+![18](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/18.jpg)
+
+- Finalizando Armado
+![17](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/17.jpg)
+
+- Rescontrucción en pista
+![20](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/20.jpg)
 
 # Photos
 
@@ -128,40 +161,23 @@ Estos mecanismos de protección no solo prolongan la vida útil del bloque EV3, 
 # Vehicle-Photos
 
 - Superior
-![Superior](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Superior.jpg)
+
+![Superior](https://github.com/user-attachments/assets/ba01ced1-ba8d-419f-a658-8bd198c86b1a)
 
 - Frontal
-![Frontal](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Frontal.jpg)
+![Frontal](https://github.com/user-attachments/assets/40b66195-dde3-4b4f-bd2e-97b16724fb83)
 
 - Posterior
-![Posterior](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Posterior.jpg)
+![Posterior](https://github.com/user-attachments/assets/7a073041-7c3c-4fac-b9ff-d764988b38a7)
 
 - Derecha
-![Derecha](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Derecha.jpg)
+![Derecha](https://github.com/user-attachments/assets/82fa34ef-9c62-43d8-860b-4b9fb4966331)
 
 - Izquierda
-![Izquierda](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Izquierda.jpg)
+![Izquierda](https://github.com/user-attachments/assets/abb3d34d-5622-4e7a-a650-40928f0a642a)
 
 - Inferior
-![Inferior](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Inferior.jpg)
-
-- Primera fase de armado
-![Primer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Primer-Armado.jpg)
-
-- Segunda fase de armado
-![Segundo-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Segundo-Armado.jpg)
-
-- Tercera fase de armado
-![Tercer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Tercer-Armado.jpg)
-
-- Base del ultrasonico
-![18](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/18.jpg)
-
-- Finalizando Armado
-![17](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/17.jpg)
-
-- Rescontrucción en pista
-![20](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/20.jpg)
+![Inferior](https://github.com/user-attachments/assets/5c1bc11b-1f79-4cad-a5e4-de001e441e4b)
 
 - Pruebas de Programacion
 ![21](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/21.jpg)
