@@ -159,6 +159,29 @@ CONEXION 3 Y 2
 
 Sensor de Color: Este sensor permite detectar los colores de los cubos en color rojo y verde de la pista perimitiendo que el robot decida hacia que lado debe girar 
 
+# Explicacion del codigo
+
+**Inicio:** Cuando se enciende el robot, el motor grande comienza a girar a máxima velocidad (100%). Esto hace que el robot empiece a moverse en un círculo.
+
+**Detección:** Mientras el robot se mueve, lleva un registro de la distancia a los objetos que tiene enfrente. Si encuentra un objeto que está a menos de 63 centímetros de distancia, se activa una secuencia de movimientos.
+
+**Secuencia de movimientos:**
+
+**Motor mediano:** Gira en sentido contrario a la dirección del movimiento principal (-0.13 rotaciones). Esto hace que el robot se desvíe un poco hacia un lado.
+
+**Motor grande:** Gira una rotación completa. Esto hace que el robot avance un poco y se acerque al objeto detectado.
+
+**Motor mediano:** Gira nuevamente, pero esta vez en la misma dirección que el movimiento principal (0.13 rotaciones). Esto hace que el robot vuelva a su trayectoria original.
+
+**Repetición:** Los pasos 2 y 3 se repiten una y otra vez hasta que se cumpla una condición específica. Esta condición está relacionada con el tiempo y se establece durante la calibración del robot. 
+
+**¿Por qué se hace esto?**
+
+Esta secuencia de movimientos permite al robot explorar su entorno de manera sistemática y evitar colisiones con el borde externo e interno de la pista. Al detectar el borde, el robot realiza un giro, avanza y rectifica su direccion.
+
+(Este proceso se repite, pero en sentido contrario. Es decir, el motor grande comienza a girar en sentido horario y la secuencia de movimientos del motor mediano también se invierte.)
+
+
 # Controlador/Robot
 
 Procesador: ARM9, 300 MHz.
