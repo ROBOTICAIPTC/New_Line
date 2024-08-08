@@ -193,10 +193,6 @@ Motor Mediano (Medium Motor):
 Torque: 8 N.cm
 RPM: 240-250
 
-# Photos
-
-* `t-photos` contiene 2 fotos del equipo (una oficial y una foto divertida con todos los miembros del equipo)
-  
 # Team-Photos
 
 -Foto Formal
