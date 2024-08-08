@@ -1,6 +1,14 @@
 # WRO-2024
+ 
+  # Detalles del equipo
 
-**Este repositorio presenta información detallada sobre la construcción del robot del equipo New Line, el cual participa en la competencia WRO-FUTURE ENGINEERS de la temporada mundial WRO Panamá 2024.*
+Nombre del equipo: New Line
+
+País: Panamá, Panamá Oeste, Distrito de Capira
+
+Miembros del equipo: Josué Jiménez e Isaac Clara
+
+Coach: Mara Martínez
 
 # Contenido
 * [**Detalles del equipo**](#DETALLS-DEL-EQUIPO)
@@ -16,17 +24,10 @@
 * [**Recomendaciones y tips**](#RECOMENDACIONES-Y-TIPS)
 * [**Diagrama**](#DIAGRAMA)
 * [**Version del progama**](#VERSION-DEL-PROGAMA)
-    
-  
-   # Detalles del equipo
 
-Nombre del equipo: New Line
+# Introduccion 
 
-País: Panamá, Panamá Oeste, Distrito de Capira
-
-Miembros del equipo: Josué Jiménez e Isaac Clara
-
-Coach: Mara Martínez
+**New Line es un robot construido con el kit robótico EV3 Mindstorms. Utiliza sensores ultrasónicos y de color para evadir obstáculos de manera eficiente. Los motores para dirección y movilidad están ubicados en el eje delantero y trasero, respectivamente, lo que permite una maniobrabilidad precisa. El movimiento del robot se realiza mediante un sistema de tuercas, impulsando su eje trasero para proporcionar tracción y velocidad.*
 
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
