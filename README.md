@@ -112,7 +112,8 @@ Estos mecanismos de protección no solo prolongan la vida útil del bloque EV3, 
 
 ![S10](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide10.JPG)
 
-![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
+![logo](![image](https://github.com/user-attachments/assets/976edb6f-0908-4d99-87a9-4121d25681d8)
+
 
 # Photos
 
