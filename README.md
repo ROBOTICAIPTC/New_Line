@@ -1,5 +1,4 @@
-**
-**Bienvenidos al repositorio oficial del equipo New Line de Panamá**
+# NEWLINE-WRO2024
 
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
