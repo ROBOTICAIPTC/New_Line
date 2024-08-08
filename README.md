@@ -102,7 +102,7 @@ https://youtu.be/KI8TZq1QNDs
 
 * `schemes` contiene uno o varios diagramas esquemáticos en formato JPEG, PNG o PDF de los componentes electromecánicos que ilustran todos los elementos (componentes electrónicos y motores) utilizados en el vehículo y cómo se conectan entre sí.
 
-# GESTION DE ENERGIA Y LOS SENTIDOS
+# Gestion de energia y los sentidos
 
 CONEXION A	
 Motor Grande: Este componente esencial facilita el movimiento de las llantas traseras del robot, proporcionando la potencia y precisión necesarias para maniobrar con eficiencia en diversas superficies y condiciones.
@@ -116,7 +116,7 @@ Sensor Ultrasónico: Este sensor permite al robot detectar objetos a diferentes 
 CONEXION 3	
 Sensor de Color: Este sensor permite detectar los colores de los cubos en color rojo y verde de la pista perimitiendo que el robot decida hacia que lado debe girar 
 
-# GESTION DE ENERGIA
+# Gestion de energia
 
 El bloque EV3 y todo el vehículo obtienen su energía de una batería recargable de litio de 10 V. Esta fuente de energía es fundamental para el funcionamiento continuo del sistema, ya que proporciona la electricidad necesaria para todos los componentes del robot. Dentro del bloque EV3, la administración de energía es compleja y eficiente, involucrando múltiples regulaciones de conmutación que están estrictamente controladas y entrelazadas. Estas regulaciones aseguran que el circuito electrónico arranque correctamente y mantenga un funcionamiento estable.
 
@@ -124,7 +124,7 @@ Para proteger el bloque EV3 de posibles cortocircuitos, se han implementado tres
 
 Estos mecanismos de protección no solo prolongan la vida útil del bloque EV3, sino que también mejoran la eficiencia del sistema, permitiendo que los motores y otros componentes electrónicos funcionen de manera óptima sin riesgo de fallos eléctricos. La inclusión de estos interruptores de polietileno es una muestra del enfoque detallado y meticuloso en el diseño del sistema de administración de energía del EV3, asegurando que cada parte del robot reciba la cantidad adecuada de energía y esté protegida contra cualquier eventualidad eléctrica
 
-# GESTION DE MOVILIDAD 
+# Gestion de movilidad
 
 
 La selección del motor es un componente crucial en el sistema de navegación autónoma de nuestro vehículo. El kit LEGO MINDSTORMS EV3 ofrece dos opciones distintas de motor: motores grandes y motores medianos. Estos motores son fundamentales para el rendimiento del vehículo, cada uno con características específicas que se ajustan a diferentes necesidades del proyecto.
@@ -138,7 +138,7 @@ Adicionalmente, ambos tipos de motores están equipados con sensores de rotació
 *El Motor grande funciona a 160–170 rpm, con un torque de rotación de 20 Ncm y un torque de rotor bloqueado de 40 Ncm. 
 *El Motor mediano funciona a 240–250 rpm, con un torque de rotación de 8 Ncm y un torque de rotor bloqueado de 12 Ncm.
 
-# CONTROLADOR/ROBOT
+# Controlador/Robot
 
 Procesador: ARM9, 300 MHz.
 
@@ -154,7 +154,7 @@ Batería Recargable: Batería de ion de litio EV3 (10V).
 
 Duración de la Batería: Aproximadamente 6 horas con uso continuo de la batería recargable.
 
-# SENSORES Y MARGENES DE ERROR
+# Sensores y margenes de error
 
 Sensor de Color:
 Precisión: ±1%
@@ -176,7 +176,7 @@ Motor Mediano (Medium Motor):
 Torque: 8 N.cm
 RPM: 240-250
 
-# RECOMENDACIONES Y TIPS                                                                                                                                                                                       
+# Recomendaciones y tips                                                                                                                                                                                     
 
 **Optimización de Energía**
 
@@ -210,7 +210,7 @@ RPM: 240-250
 
 *Usa engranajes y estructuras reforzadas para mejorar la estabilidad del robot.                                        
 
-# DIAGRAMA 
+# Diagrama
 
 ![S1](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide1.JPG)
 
@@ -234,7 +234,7 @@ RPM: 240-250
 
 * `src` contiene código de software de control para todos los componentes que fueron programados para participar en la competencia
 
- # VERSION DEL PROGAMA
+ # Version del progama
 
 Lego Mindstorms EV3
 
