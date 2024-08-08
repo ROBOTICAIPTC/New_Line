@@ -236,11 +236,10 @@ RPM: 240-250
 # Vehicle-Photos
 
 - Superior
-
-![Superior](https://github.com/user-attachments/assets/ba01ced1-ba8d-419f-a658-8bd198c86b1a)
+![Superior](https://github.com/user-attachments/assets/2ba4dbb5-cec7-445a-a341-bc51f382fe76)
 
 - Frontal
-![Frontal](https://github.com/user-attachments/assets/40b66195-dde3-4b4f-bd2e-97b16724fb83)
+![Frontal](https://github.com/user-attachments/assets/8119c901-8f25-4ee5-b252-b75c6a36dc92)
 
 - Posterior
 ![Posterior](https://github.com/user-attachments/assets/7a073041-7c3c-4fac-b9ff-d764988b38a7)
@@ -249,10 +248,11 @@ RPM: 240-250
 ![Derecha](https://github.com/user-attachments/assets/82fa34ef-9c62-43d8-860b-4b9fb4966331)
 
 - Izquierda
-![Izquierda](https://github.com/user-attachments/assets/abb3d34d-5622-4e7a-a650-40928f0a642a)
+![Izquierda](https://github.com/user-attachments/assets/39ea51e1-dcd0-4a6f-bc3f-5b77ed57dd87)
 
 - Inferior
-![Inferior](https://github.com/user-attachments/assets/5c1bc11b-1f79-4cad-a5e4-de001e441e4b)
+![Inferior](![image](https://github.com/user-attachments/assets/ed821f36-36ae-47c2-8fb2-f8757a8e89c1)
+)
 
 - Pruebas de Programacion
 ![21](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/21.jpg)
