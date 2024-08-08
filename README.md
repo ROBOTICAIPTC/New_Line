@@ -27,7 +27,90 @@ Coach: Mara Martínez
 
 # Introduccion 
 
-**New Line es un robot construido con el kit robótico EV3 Mindstorms. Utiliza sensores ultrasónicos y de color para evadir obstáculos de manera eficiente. Los motores para dirección y movilidad están ubicados en el eje delantero y trasero, respectivamente, lo que permite una maniobrabilidad precisa. El movimiento del robot se realiza mediante un sistema de tuercas, impulsando su eje trasero para proporcionar tracción y velocidad.*
+-New Line es un robot construido con el kit robótico EV3 Mindstorms. Utiliza sensores ultrasónicos y de color para evadir obstáculos de manera eficiente. Los motores para dirección y movilidad están ubicados en el eje delantero y trasero, respectivamente, lo que permite una maniobrabilidad precisa. El movimiento del robot se realiza mediante un sistema de tuercas, impulsando su eje trasero para proporcionar tracción y velocidad.
+
+-El proceso de movimiento de New Line implica la recepción de datos continuos de sus sensores, que son procesados por su unidad central para tomar decisiones en tiempo real. Cuando el sensor ultrasónico detecta un obstáculo, el robot calcula una ruta alternativa para evitarlo. Simultáneamente, los sensores de color monitorean el entorno para asegurarse de que el robot no se salga de los límites de la pista.
+
+# Materiales 
+
+- 4 Rim Wide 43,2x26 W 6 Hol.0 4.8
+- 4 Tyre Low Wide 056 X 28
+- 5 Tube, W/ Double 4.85 Hole
+- 2 Gear Wheel Z24
+- 2 Gear Wheel 40T
+- 1 Gear Wheel Z16
+- 1 Technic Angular Wheel
+- 6 Bush For Cross Axel 
+- 2 Bion. Eye
+- 5 Angular Beam 90° W.4 Snaps
+- 8 Technic 13M Beam 
+- 2 Beam Frame 5x7 04.85
+- 4 Technic Angular Beam 3x7
+- 6 Technic 3M Beam
+- 2 Hto V Beam 90°
+- 59 Connector Peg W. Friction
+- 9 Connector Peg W, Friction 3M
+- 12 Conn.Bush W.Fric/Cross Axle 
+- 4 Technic 5M Beam 
+- 2 Technic 11M Beam 
+- 1 Technic 15M Beam 
+- 6 Beam 3 M. W/4 Snaps 
+- 2 Cross Block 3 M 
+- 2 Technic Ang. Beam 3X5 90°
+- 1 Rack 13m
+- 1 Cross Axle 25M
+- 1 Cross Axle 12M
+- 2 Cross Axle 9M
+- 5 EV3 Cable 250 Mm
+- 2 EV3 Color Sensor
+- 1 EV3 Ultrasonic Sensor 
+- 1 Ms-EV3 Rechargea. Battery
+- 1 P-Brick
+- 1 Medium Motor
+- 1 Large Motor 
+
+# Gestion de movilidad
+
+La selección del motor es un componente crucial en el sistema de navegación autónoma de nuestro vehículo. El kit LEGO MINDSTORMS EV3 ofrece dos opciones distintas de motor: motores grandes y motores medianos. Estos motores son fundamentales para el rendimiento del vehículo, cada uno con características específicas que se ajustan a diferentes necesidades del proyecto.
+
+Después de una cuidadosa evaluación de las necesidades específicas de nuestro proyecto, optamos por implementar un motor grande para accionar las llantas traseras del vehículo. Esta decisión se basa en varias consideraciones clave. En primer lugar, el motor grande del LEGO EV3 proporciona una potencia considerable, capaz de mover el vehículo con eficacia incluso en condiciones de alta fricción o resistencia en la pista. Además, la precisión del motor grande facilita una maniobrabilidad controlada, lo cual es esencial para que el vehículo navegue con exactitud por el circuito. Estos motores grandes son conocidos por su capacidad para soportar cargas más pesadas y proporcionar un par motor superior, lo que es crucial para mantener la estabilidad y velocidad del vehículo durante la competencia.
+
+Por otro lado, decidimos utilizar un motor mediano para las funciones de giro y cambio de dirección del vehículo. Este motor mediano, también parte del set LEGO EV3, es ideal para ejecutar movimientos precisos hacia la izquierda y la derecha, lo que contribuye a una mayor maniobrabilidad y control en el desplazamiento del robot. La capacidad del motor mediano para realizar ajustes finos en la dirección es fundamental para evitar obstáculos y seguir las indicaciones del sensor de color, que determina el rumbo del vehículo basado en los colores detectados en la pista. Los motores medianos son más ligeros y compactos, lo que facilita su integración en el diseño del vehículo sin añadir peso innecesario.
+
+Adicionalmente, ambos tipos de motores están equipados con sensores de rotación incorporados, que permiten un control preciso de la velocidad y la posición. Esta característica es especialmente útil para la programación de secuencias de movimiento exactas, garantizando que el vehículo siga el trayecto planificado sin desviaciones.
+
+*El Motor grande funciona a 160–170 rpm, con un torque de rotación de 20 Ncm y un torque de rotor bloqueado de 40 Ncm. 
+*El Motor mediano funciona a 240–250 rpm, con un torque de rotación de 8 Ncm y un torque de rotor bloqueado de 12 Ncm.
+
+# Gestion de energia
+
+El bloque EV3 y todo el vehículo obtienen su energía de una batería recargable de litio de 10 V. Esta fuente de energía es fundamental para el funcionamiento continuo del sistema, ya que proporciona la electricidad necesaria para todos los componentes del robot. Dentro del bloque EV3, la administración de energía es compleja y eficiente, involucrando múltiples regulaciones de conmutación que están estrictamente controladas y entrelazadas. Estas regulaciones aseguran que el circuito electrónico arranque correctamente y mantenga un funcionamiento estable.
+
+Para proteger el bloque EV3 de posibles cortocircuitos, se han implementado tres interruptores de polietileno estratégicamente ubicados. Dos de estos interruptores están dedicados a los controladores de motor, mientras que el tercero protege el resto del circuito. Cada uno de estos interruptores poligonal tiene una corriente de retención de aproximadamente 1,1 A, y se activa cuando la corriente alcanza aproximadamente 2,2 A. Este diseño de protección garantiza que cualquier sobrecarga potencial en el sistema sea rápidamente gestionada, evitando daños a los componentes y asegurando una operación segura y confiable del robot.
+
+Estos mecanismos de protección no solo prolongan la vida útil del bloque EV3, sino que también mejoran la eficiencia del sistema, permitiendo que los motores y otros componentes electrónicos funcionen de manera óptima sin riesgo de fallos eléctricos. La inclusión de estos interruptores de polietileno es una muestra del enfoque detallado y meticuloso en el diseño del sistema de administración de energía del EV3, asegurando que cada parte del robot reciba la cantidad adecuada de energía y esté protegida contra cualquier eventualidad eléctrica
+
+# Diagrama
+
+![S1](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide1.JPG)
+
+![S2](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide2.JPG)
+
+![S3](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide3.JPG)
+
+![S4](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide4.JPG)
+
+![S5](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide5.JPG)
+
+![S6](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide6.JPG)
+
+![S7](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide7.JPG)
+
+![S8](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide8.JPG)
+
+![S9](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide9.JPG)
+
+![S10](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide10.JPG)
 
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
@@ -99,7 +182,6 @@ Coach: Mara Martínez
 https://youtu.be/KI8TZq1QNDs
 
 * `schemes` contiene uno o varios diagramas esquemáticos en formato JPEG, PNG o PDF de los componentes electromecánicos que ilustran todos los elementos (componentes electrónicos y motores) utilizados en el vehículo y cómo se conectan entre sí.
-
 # Gestion de energia y los sentidos
 
 CONEXION A	
@@ -114,27 +196,9 @@ Sensor Ultrasónico: Este sensor permite al robot detectar objetos a diferentes 
 CONEXION 3	
 Sensor de Color: Este sensor permite detectar los colores de los cubos en color rojo y verde de la pista perimitiendo que el robot decida hacia que lado debe girar 
 
-# Gestion de energia
-
-El bloque EV3 y todo el vehículo obtienen su energía de una batería recargable de litio de 10 V. Esta fuente de energía es fundamental para el funcionamiento continuo del sistema, ya que proporciona la electricidad necesaria para todos los componentes del robot. Dentro del bloque EV3, la administración de energía es compleja y eficiente, involucrando múltiples regulaciones de conmutación que están estrictamente controladas y entrelazadas. Estas regulaciones aseguran que el circuito electrónico arranque correctamente y mantenga un funcionamiento estable.
-
-Para proteger el bloque EV3 de posibles cortocircuitos, se han implementado tres interruptores de polietileno estratégicamente ubicados. Dos de estos interruptores están dedicados a los controladores de motor, mientras que el tercero protege el resto del circuito. Cada uno de estos interruptores poligonal tiene una corriente de retención de aproximadamente 1,1 A, y se activa cuando la corriente alcanza aproximadamente 2,2 A. Este diseño de protección garantiza que cualquier sobrecarga potencial en el sistema sea rápidamente gestionada, evitando daños a los componentes y asegurando una operación segura y confiable del robot.
-
-Estos mecanismos de protección no solo prolongan la vida útil del bloque EV3, sino que también mejoran la eficiencia del sistema, permitiendo que los motores y otros componentes electrónicos funcionen de manera óptima sin riesgo de fallos eléctricos. La inclusión de estos interruptores de polietileno es una muestra del enfoque detallado y meticuloso en el diseño del sistema de administración de energía del EV3, asegurando que cada parte del robot reciba la cantidad adecuada de energía y esté protegida contra cualquier eventualidad eléctrica
-
-# Gestion de movilidad
 
 
-La selección del motor es un componente crucial en el sistema de navegación autónoma de nuestro vehículo. El kit LEGO MINDSTORMS EV3 ofrece dos opciones distintas de motor: motores grandes y motores medianos. Estos motores son fundamentales para el rendimiento del vehículo, cada uno con características específicas que se ajustan a diferentes necesidades del proyecto.
 
-Después de una cuidadosa evaluación de las necesidades específicas de nuestro proyecto, optamos por implementar un motor grande para accionar las llantas traseras del vehículo. Esta decisión se basa en varias consideraciones clave. En primer lugar, el motor grande del LEGO EV3 proporciona una potencia considerable, capaz de mover el vehículo con eficacia incluso en condiciones de alta fricción o resistencia en la pista. Además, la precisión del motor grande facilita una maniobrabilidad controlada, lo cual es esencial para que el vehículo navegue con exactitud por el circuito. Estos motores grandes son conocidos por su capacidad para soportar cargas más pesadas y proporcionar un par motor superior, lo que es crucial para mantener la estabilidad y velocidad del vehículo durante la competencia.
-
-Por otro lado, decidimos utilizar un motor mediano para las funciones de giro y cambio de dirección del vehículo. Este motor mediano, también parte del set LEGO EV3, es ideal para ejecutar movimientos precisos hacia la izquierda y la derecha, lo que contribuye a una mayor maniobrabilidad y control en el desplazamiento del robot. La capacidad del motor mediano para realizar ajustes finos en la dirección es fundamental para evitar obstáculos y seguir las indicaciones del sensor de color, que determina el rumbo del vehículo basado en los colores detectados en la pista. Los motores medianos son más ligeros y compactos, lo que facilita su integración en el diseño del vehículo sin añadir peso innecesario.
-
-Adicionalmente, ambos tipos de motores están equipados con sensores de rotación incorporados, que permiten un control preciso de la velocidad y la posición. Esta característica es especialmente útil para la programación de secuencias de movimiento exactas, garantizando que el vehículo siga el trayecto planificado sin desviaciones.
-
-*El Motor grande funciona a 160–170 rpm, con un torque de rotación de 20 Ncm y un torque de rotor bloqueado de 40 Ncm. 
-*El Motor mediano funciona a 240–250 rpm, con un torque de rotación de 8 Ncm y un torque de rotor bloqueado de 12 Ncm.
 
 # Controlador/Robot
 
@@ -208,27 +272,7 @@ RPM: 240-250
 
 *Usa engranajes y estructuras reforzadas para mejorar la estabilidad del robot.                                        
 
-# Diagrama
 
-![S1](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide1.JPG)
-
-![S2](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide2.JPG)
-
-![S3](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide3.JPG)
-
-![S4](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide4.JPG)
-
-![S5](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide5.JPG)
-
-![S6](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide6.JPG)
-
-![S7](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide7.JPG)
-
-![S8](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide8.JPG)
-
-![S9](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide9.JPG)
-
-![S10](https://github.com/ROBOTICAIPTC/New_Line/blob/main/schemes/Slide10.JPG)
 
 * `src` contiene código de software de control para todos los componentes que fueron programados para participar en la competencia
 
