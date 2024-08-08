@@ -1,7 +1,6 @@
 # WRO-2024
-Este repositorio presenta información detallada sobre la construcción del robot del equipo New Line, el cual participa en la competencia WRO-FUTURE ENGINEERS de la temporada mundial WRO Panamá 2024. 
-![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
+**Este repositorio presenta información detallada sobre la construcción del robot del equipo New Line, el cual participa en la competencia WRO-FUTURE ENGINEERS de la temporada mundial WRO Panamá 2024.*
 
 # Contenido
 * [**Detalles del equipo**](#DETALLS-DEL-EQUIPO)
@@ -18,7 +17,6 @@ Este repositorio presenta información detallada sobre la construcción del robo
 * [**Diagrama**](#DIAGRAMA)
 * [**Version del progama**](#VERSION-DEL-PROGAMA)
     
-    
   
    # Detalles del equipo
 
@@ -30,6 +28,7 @@ Miembros del equipo: Josué Jiménez e Isaac Clara
 
 Coach: Mara Martínez
 
+![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
 # Photos
 
