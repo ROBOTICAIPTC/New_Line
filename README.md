@@ -136,10 +136,62 @@ La fase final del montaje involucra la integración del cerebro del robot, que e
 ![18](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/18.jpg)
 
 - Finalizando Armado
-![17](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/17.jpg)
+- ![17](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/17.jpg)
 
 - Rescontrucción en pista
 ![20](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/20.jpg)
+
+# Gestion de energia y los sentidos
+
+CONEXION A	
+Motor Grande: Este componente esencial facilita el movimiento de las llantas traseras del robot, proporcionando la potencia y precisión necesarias para maniobrar con eficiencia en diversas superficies y condiciones.
+
+CONEXION B	
+Motor Mediano: Este motor permite que el robot gire y cambie de dirección, facilitando movimientos precisos hacia la izquierda y la derecha, y contribuyendo a una mayor maniobrabilidad y control en su desplazamiento.
+
+CONEXION 4	
+Sensor Ultrasónico: Este sensor permite al robot detectar objetos a diferentes distancias y utiliza esta información para determinar el momento adecuado para determinar los cambios de dirección, garantizando así la seguridad y la precisión en sus movimientos.
+
+CONEXION 3 Y 2 
+Sensor de Color: Este sensor permite detectar los colores de los cubos en color rojo y verde de la pista perimitiendo que el robot decida hacia que lado debe girar 
+
+# Controlador/Robot
+
+Procesador: ARM9, 300 MHz.
+
+Memoria RAM: 64 MB.
+
+Almacenamiento: 16 MB de memoria flash y ranura para tarjeta microSD de hasta 32 GB.
+
+Sistema Operativo:  Kendel Linux.
+
+Voltaje de Funcionamiento: 6-9V DC.
+
+Batería Recargable: Batería de ion de litio EV3 (10V).
+
+Duración de la Batería: Aproximadamente 6 horas con uso continuo de la batería recargable.
+
+# Sensores y margenes de error
+
+Sensor de Color:
+Precisión: ±1%
+Modos: Color, Reflejo de Luz, Luz Ambiental
+Margen de Error: Depende de la calidad de la luz y el color del objeto, puede variar pero generalmente dentro de ±5%.
+
+Sensor Ultrasónico:
+Rango: 3 cm a 255 cm.
+Precisión: ±1 cm.
+Margen de Error: Puede ser mayor en condiciones de alta interferencia acústica.
+
+MOTORES 
+
+Motor Grande (Large Motor):
+Torque: 40 N.cm (Newton-centímetros)
+RPM: 160-170
+
+Motor Mediano (Medium Motor):
+Torque: 8 N.cm
+RPM: 240-250
 
 # Photos
 
@@ -192,61 +244,6 @@ La fase final del montaje involucra la integración del cerebro del robot, que e
 https://youtu.be/KI8TZq1QNDs
 
 * `schemes` contiene uno o varios diagramas esquemáticos en formato JPEG, PNG o PDF de los componentes electromecánicos que ilustran todos los elementos (componentes electrónicos y motores) utilizados en el vehículo y cómo se conectan entre sí.
-# Gestion de energia y los sentidos
-
-CONEXION A	
-Motor Grande: Este componente esencial facilita el movimiento de las llantas traseras del robot, proporcionando la potencia y precisión necesarias para maniobrar con eficiencia en diversas superficies y condiciones.
-
-CONEXION B	
-Motor Mediano: Este motor permite que el robot gire y cambie de dirección, facilitando movimientos precisos hacia la izquierda y la derecha, y contribuyendo a una mayor maniobrabilidad y control en su desplazamiento.
-
-CONEXION 4	
-Sensor Ultrasónico: Este sensor permite al robot detectar objetos a diferentes distancias y utiliza esta información para determinar el momento adecuado para determinar los cambios de dirección, garantizando así la seguridad y la precisión en sus movimientos.
-
-CONEXION 3	
-Sensor de Color: Este sensor permite detectar los colores de los cubos en color rojo y verde de la pista perimitiendo que el robot decida hacia que lado debe girar 
-
-
-
-
-
-# Controlador/Robot
-
-Procesador: ARM9, 300 MHz.
-
-Memoria RAM: 64 MB.
-
-Almacenamiento: 16 MB de memoria flash y ranura para tarjeta microSD de hasta 32 GB.
-
-Sistema Operativo:  Kendel Linux.
-
-Voltaje de Funcionamiento: 6-9V DC.
-
-Batería Recargable: Batería de ion de litio EV3 (10V).
-
-Duración de la Batería: Aproximadamente 6 horas con uso continuo de la batería recargable.
-
-# Sensores y margenes de error
-
-Sensor de Color:
-Precisión: ±1%
-Modos: Color, Reflejo de Luz, Luz Ambiental
-Margen de Error: Depende de la calidad de la luz y el color del objeto, puede variar pero generalmente dentro de ±5%.
-
-Sensor Ultrasónico:
-Rango: 3 cm a 255 cm.
-Precisión: ±1 cm.
-Margen de Error: Puede ser mayor en condiciones de alta interferencia acústica.
-
-MOTORES 
-
-Motor Grande (Large Motor):
-Torque: 40 N.cm (Newton-centímetros)
-RPM: 160-170
-
-Motor Mediano (Medium Motor):
-Torque: 8 N.cm
-RPM: 240-250
 
 # Recomendaciones y tips                                                                                                                                                                                     
 
