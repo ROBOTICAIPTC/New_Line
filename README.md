@@ -21,7 +21,7 @@ Coach: Mara Martínez
 * [**Explicacion del codigo**](#Explicacion-del-codigo)
 * [**Controlador/Robot**](#CONTROLADOR/ROBOT)
 * [**Sensores y margenes de error**](#SENSORES-Y-MARGENES-DE-ERROR)
-* [**Huskylens(camara)**](#Huskylens)
+* [**Huskylens (camara)**](#Huskylens)
 * [**Team-Photos**](#Team-Photos)
 * [**Vehicle-Photos**](#Vehicle-Photos)
 * [**Ronda de obstaculos**](#Ronda-de-obstaculos)
@@ -241,7 +241,7 @@ Motor Mediano (Medium Motor):
 Torque: 8 N.cm
 RPM: 240-250
 
-# Huskylens (camara)
+# Huskylens
 
 
 **Especificaciones Técnicas:**
