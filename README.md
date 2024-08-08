@@ -144,15 +144,19 @@ La fase final del montaje involucra la integración del cerebro del robot, que e
 # Gestion de energia y los sentidos
 
 CONEXION A	
+
 Motor Grande: Este componente esencial facilita el movimiento de las llantas traseras del robot, proporcionando la potencia y precisión necesarias para maniobrar con eficiencia en diversas superficies y condiciones.
 
 CONEXION B	
+
 Motor Mediano: Este motor permite que el robot gire y cambie de dirección, facilitando movimientos precisos hacia la izquierda y la derecha, y contribuyendo a una mayor maniobrabilidad y control en su desplazamiento.
 
 CONEXION 4	
+
 Sensor Ultrasónico: Este sensor permite al robot detectar objetos a diferentes distancias y utiliza esta información para determinar el momento adecuado para determinar los cambios de dirección, garantizando así la seguridad y la precisión en sus movimientos.
 
 CONEXION 3 Y 2 
+
 Sensor de Color: Este sensor permite detectar los colores de los cubos en color rojo y verde de la pista perimitiendo que el robot decida hacia que lado debe girar 
 
 # Controlador/Robot
