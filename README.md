@@ -1,9 +1,9 @@
-# NewLine-WRO24
+# WRO-2024
 
 ![logo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/other/logo-new-line.jpeg)
 
-</div>
 
+# Contenido
 * [**Detalles del equipo**](#DETALLES-DEL-EQUIPO)
 * [**Photos**](#photos)
   * [Team Photos](#team-photos )
@@ -19,9 +19,8 @@
 * [**Version del progama**](#VERSION-DEL-PROGAMA)
     
     
- </div>
   
-   # DETALLES-DEL-EQUIPO
+   # Detalles del equipo
 
 Nombre del equipo: New Line
 
@@ -34,11 +33,11 @@ Coach: Mara Martínez
 Este repositorio presenta información detallada sobre la construcción del robot del equipo New Line, el cual participa en la competencia WRO-FUTURE ENGINEERS de la temporada mundial WRO Panamá 2024. 
 </div>
 
-# PHOTOS
+# Photos
 
 * `t-photos` contiene 2 fotos del equipo (una oficial y una foto divertida con todos los miembros del equipo)
   
-# TEAM-PHOTOS
+# Team-Photos
 
 -Foto Formal
 ![equipo](https://github.com/ROBOTICAIPTC/New_Line/blob/main/t-photos/20240702_122028.png)
@@ -51,7 +50,7 @@ Este repositorio presenta información detallada sobre la construcción del robo
 
 * `v-photos` contiene 6 fotos del vehículo (de cada lado, desde arriba y desde abajo)
 
-# VEHICLE-PHOTOS
+# Vehicle-Photos
 
 - Superior
 ![Superior](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Superior.jpg)
@@ -98,7 +97,7 @@ Este repositorio presenta información detallada sobre la construcción del robo
 
 * `video` contiene el archivo video.md con el enlace a un video donde existe una demostración de manejo
 
-# RONDA-DE-DESAFIO
+# Ronda de desafio abierto
 https://youtu.be/KI8TZq1QNDs
 
 * `schemes` contiene uno o varios diagramas esquemáticos en formato JPEG, PNG o PDF de los componentes electromecánicos que ilustran todos los elementos (componentes electrónicos y motores) utilizados en el vehículo y cómo se conectan entre sí.
