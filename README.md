@@ -21,6 +21,7 @@ Coach: Mara Martínez
 * [**Explicacion del codigo**](#Explicacion-del-codigo)
 * [**Controlador/Robot**](#CONTROLADOR/ROBOT)
 * [**Sensores y margenes de error**](#SENSORES-Y-MARGENES-DE-ERROR)
+* [**Huskylens(camara)**](#Huskylens)
 * [**Team-Photos**](#Team-Photos)
 * [**Vehicle-Photos**](#Vehicle-Photos)
 * [**Ronda de obstaculos**](#Ronda-de-obstaculos)
@@ -242,6 +243,7 @@ RPM: 240-250
 
 # Huskylens (camara)
 
+
 **Especificaciones Técnicas:**
 
 Resolución de la Cámara: 320x240 píxeles.
@@ -255,6 +257,7 @@ Interfaces de Comunicación: I2C, UART.
 Distancia de Detección: Hasta 2 metros para detección de colores.
 
 Velocidad de Reconocimiento: Capaz de procesar hasta 30 cuadros por segundo.
+
 
 **Integración con EV3:**
 
@@ -270,6 +273,7 @@ TX: Transmisión de datos desde la HuskyLens.
 
 RX: Recepción de datos hacia la HuskyLens.
 
+
 **Configuración Inicial:**
 
 Calibración de Color: Inicia la HuskyLens y selecciona el modo de detección de color.
@@ -282,11 +286,13 @@ Guardar Configuración: Una vez calibrada, guarda la configuración en la memori
 
 El EV3 se comunica con la HuskyLens a través del puerto UART, recibiendo datos en tiempo real sobre los colores detectados. Si se detecta un obstáculo rojo, el EV3 ejecuta un giro a la derecha; si se detecta verde, el EV3 sigue derecho o realiza la acción correspondiente.
 
+
 **Codigo fuente:**
 
 ev3dev2: Para programar el EV3 en Python.
 
 (Detalles de instalacion del programa en el siguiente link: https://www.ev3dev.org/docs/getting-started/)
+
 
 **Pruebas y Resultados:**
 
@@ -303,8 +309,9 @@ Detección Exitosa: La HuskyLens logró detectar colores con una precisión del 
 
 Tiempo de Respuesta: El tiempo de respuesta promedio fue de 0.2 segundos desde la detección hasta la ejecución de la acción en el EV3.
 
+
 **Manual de Usuario:**
-I
+
 nstrucciones de Uso:
 
 Encender la HuskyLens: Conectar la HuskyLens al puerto de alimentación del EV3.
@@ -314,6 +321,7 @@ Seleccionar Modo de Detección: Usar el menú de la HuskyLens para seleccionar e
 Calibrar: Seguir las instrucciones en pantalla para calibrar la cámara según el entorno.
 
 Operación: Una vez calibrada, la HuskyLens estará lista para enviar datos al EV3.
+
 
  **Diagrama de flujo**
 
