@@ -23,9 +23,11 @@ Coach: Mara Martínez
 * [**Sensores y margenes de error**](#SENSORES-Y-MARGENES-DE-ERROR)
 * [**Team-Photos**](#Team-Photos)
 * [**Vehicle-Photos**](#Vehicle-Photos)
+* [**Ronda de obstaculos**](#Ronda-de-obstaculos)
 * [**Ronda de desafio abierto**](#Ronda-de-desafio-abierto)
 * [**Recomendaciones y tips**](#RECOMENDACIONES-Y-TIPS)
 * [**Version del progama**](#VERSION-DEL-PROGAMA)
+
 # Introduccion 
 
 -New Line es un robot construido con el kit robótico EV3 Mindstorms. Utiliza sensores ultrasónicos y de color para evadir obstáculos de manera eficiente. Los motores para dirección y movilidad están ubicados en el eje delantero y trasero, respectivamente, lo que permite una maniobrabilidad precisa. El movimiento del robot se realiza mediante un sistema de tuercas, impulsando su eje trasero para proporcionar tracción y velocidad.
@@ -113,39 +115,43 @@ Estos mecanismos de protección no solo prolongan la vida útil del bloque EV3, 
 
 # Instrucciones del armado
 
-FASE 1: Montaje de la estructura base
+**FASE 1:** Montaje de la estructura base
 En esta primera fase, nuestro principal objetivo fue construir una base sólida que sirviera como cimiento para el resto del robot. La estabilidad es fundamental para cualquier robot móvil, por lo que comenzamos utilizando bloques y conectores robustos, seleccionados específicamente por su capacidad para resistir el peso y la tensión durante el movimiento. Nos aseguramos de que la base proporcionara un espacio equitativo y bien distribuido para las llantas en ambos ejes, tanto frontal como trasero, lo cual es crucial para mantener un equilibrio óptimo durante la operación. Además, se prestó especial atención a la simetría de la estructura, garantizando que cada componente estuviera alineado correctamente para evitar cualquier inclinación o desbalance que pudiera afectar el desempeño del robot en el circuito.
+
+**Armado del eje trasero y de la direccional** 
+https://youtu.be/C4BgjFh31Pw?si=6pkeb3dYI517SGVD
 
 - Primera fase de armado
 ![Tercer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Tercer-Armado.jpg)
 
-FASE 2: Instalación del motor grande
+**FASE 2:** Instalación del motor grande
 Con la base ya montada, procedimos a la instalación del motor grande, que es esencial para impulsar el movimiento del robot. Este motor fue seleccionado por su capacidad para proporcionar un par elevado, lo que permite una aceleración eficiente y una velocidad constante. El motor se acopló directamente al eje trasero del robot, asegurando que la potencia se transmita de manera eficiente a las llantas traseras. Para ello, diseñamos y ensamblamos un circuito de tuercas que permite una transferencia óptima de la potencia, minimizando la pérdida de energía y garantizando un movimiento fluido. Además, se implementaron piezas de color amarillo para estabilizar las llantas, asegurando que mantuvieran un contacto firme y constante con la superficie. Esta estabilidad es crucial para maximizar la tracción, lo que a su vez mejora la capacidad del robot para moverse sobre diferentes tipos de terreno sin perder el control.
 
 - Segunda fase de armado
 ![Segundo-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Segundo-Armado.jpg)
 
-FASE 3: Montaje del sensor ultrasónico
+**FASE 3:** Montaje del sensor ultrasónico
 El siguiente paso fue el montaje del sensor ultrasónico, un componente crítico para la detección de obstáculos y la navegación autónoma del robot. Decidimos colocar este sensor sobre el motor mediano, aprovechando el espacio disponible y manteniendo el centro de gravedad bajo para evitar posibles vuelcos. El sensor ultrasónico se asegura con piezas adicionales, cuidadosamente seleccionadas para garantizar su estabilidad y evitar cualquier vibración que pudiera comprometer la precisión de la detección. Este sensor está diseñado para medir la distancia entre el robot y los objetos en su camino, lo que permite al robot ajustar su ruta en tiempo real. La precisión del sensor es vital, ya que cualquier error en la medición podría resultar en colisiones o desviaciones del camino programado.
 
 - Base del ultrasonico
 ![18](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/18.jpg)
 
-FASE 4: Instalación del motor mediano
+**FASE 4:** Instalación del motor mediano
 Una vez instalado el sensor ultrasónico, pasamos a la colocación del motor mediano, el cual es responsable de la maniobrabilidad lateral del robot. Este motor fue estratégicamente posicionado para controlar el mecanismo direccional, lo que permite al robot girar tanto hacia la izquierda como hacia la derecha de manera precisa y controlada. Para lograr esto, implementamos un sistema compuesto por una tuerca y varias piezas diseñadas para reforzar la estabilidad del sistema direccional. El motor mediano está configurado para responder rápidamente a las señales del cerebro del robot, lo que permite realizar giros suaves y evitar obstáculos de manera efectiva. La estabilidad y el soporte de las llantas también fueron reforzados en esta fase, utilizando componentes adicionales que aseguran que el robot mantenga su trayectoria incluso durante giros cerrados o cambios abruptos de dirección.
 
 - Cuarta fase de armado
 ![Primer-Armado](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/Primer-Armado.jpg)
 
-FASE 5: Colocación del cerebro del robot
+**FASE 5:** Colocación del cerebro del robot
 La fase final del montaje involucra la integración del cerebro del robot, que es esencialmente el procesador central que coordina todas las acciones y respuestas del robot. Este componente es crucial, ya que gestiona las señales provenientes de los sensores y los motores, tomando decisiones en tiempo real basadas en la programación preestablecida. Para asegurar una integración sólida y funcional del cerebro con el resto del sistema, construimos una estructura de soporte utilizando piezas rectangulares. Esta estructura no solo soporta el peso del cerebro del robot, sino que también proporciona puntos de montaje seguros para los sensores de color, que son fundamentales para la navegación y la detección de señales en la pista. Cada pieza fue seleccionada y colocada con precisión, garantizando que el cerebro del robot esté protegido de vibraciones y choques, mientras que los sensores están posicionados de manera óptima para captar información del entorno con la máxima eficiencia.
 
 - Quinta fase de armado 
 - ![17](https://github.com/ROBOTICAIPTC/New_Line/blob/main/v-photos/17.jpg)
 
-FASE 6: In Phase 6, we implemented a fixed structure to integrate a Huskylens vision sensor. This vision sensor provides advanced capabilities in the detection and recognition of multiple targets, offering high-level technological assistance. The incorporation of this system not only enhances the accuracy in mapping and analyzing the environment but also optimizes the robot's trajectory and maneuvers
+**FASE 6:** In Phase 6, we implemented a fixed structure to integrate a Huskylens vision sensor. This vision sensor provides advanced capabilities in the detection and recognition of multiple targets, offering high-level technological assistance. The incorporation of this system not only enhances the accuracy in mapping and analyzing the environment but also optimizes the robot's trajectory and maneuvers
 
 - Sexta fase de armado
+
 ![image](https://github.com/user-attachments/assets/1092bdc8-cf70-40ad-876e-3518812fca3f)
 
 - Rescontrucción en pista
@@ -153,23 +159,23 @@ FASE 6: In Phase 6, we implemented a fixed structure to integrate a Huskylens vi
 
 # Gestion de energia y los sentidos
 
-CONEXION A	
+**CONEXION A**	
 
 Motor Grande: Este componente esencial facilita el movimiento de las llantas traseras del robot, proporcionando la potencia y precisión necesarias para maniobrar con eficiencia en diversas superficies y condiciones.
 
-CONEXION B	
+**CONEXION B**
 
 Motor Mediano: Este motor permite que el robot gire y cambie de dirección, facilitando movimientos precisos hacia la izquierda y la derecha, y contribuyendo a una mayor maniobrabilidad y control en su desplazamiento.
 
-CONEXION 4	
+**CONEXION 4**	
 
 Sensor Ultrasónico: Este sensor permite al robot detectar objetos a diferentes distancias y utiliza esta información para determinar el momento adecuado para determinar los cambios de dirección, garantizando así la seguridad y la precisión en sus movimientos.
 
-CONEXION 3 Y 2 
+**CONEXION 3 Y 2**
 
 Sensor de Color: Este sensor permite detectar los colores de los cubos en color rojo y verde de la pista perimitiendo que el robot decida hacia que lado debe girar 
 
-CONEXION 1
+**CONEXION 1**
 
 Huskylens: La HuskyLens es una cámara inteligente equipada con un procesador integrado que permite la detección y el reconocimiento de objetos, colores, rostros, y más. 
 
@@ -355,6 +361,9 @@ Operación: Una vez calibrada, la HuskyLens estará lista para enviar datos al E
 
 
 * `video` contiene el archivo video.md con el enlace a un video donde existe una demostración de manejo
+
+# Ronda de obstaculos
+https://youtube.com/shorts/4RbNTx60fGI?si=cP3oHAXRoECWtf_m
 
 # Ronda de desafio abierto
 https://youtu.be/KI8TZq1QNDs
