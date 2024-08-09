@@ -10,7 +10,7 @@
 
 **Coach:** Mara Martínez
 
-# Contenido
+# Content
 * [**Introduccion**](#Introduccion)
 * [**Materials**](#Materials)
 * [**Mobility Management**](#Mobility-Management)
